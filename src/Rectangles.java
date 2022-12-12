@@ -10,12 +10,15 @@ public class Rectangles {
         if ((a == 0) || (b == 0)) {
             throw new RuntimeException("Такого прямоугольника не существует");
         }
-        this.Perimeter = a*2 + b*2;
-        this.Square = a*b;
+        this.Perimeter = a * 2 + b * 2;
+        this.Square = a * b;
     }
+
     public double getSquare() {
         return Square;
     }
 
     public double getPerimeter() {
         return Perimeter;
+    }
+}
